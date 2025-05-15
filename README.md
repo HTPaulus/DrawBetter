@@ -23,6 +23,10 @@ The game uses a server-client model:
 - The **server** manages game logic, player pairing, and scoring.
 - The **clients** provide a drawing interface and communicate with the server.
 
+## Try-Live Link: 
+
+https://ij45ha.opipc.hu/
+
 ---
 
 ## Screenshot
