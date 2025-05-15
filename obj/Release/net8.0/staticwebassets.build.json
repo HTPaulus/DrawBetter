@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "X72AG8CVpPVUcNwsaFqwMMmrk2l1g9bN+RjuQeFY+1w=",
+  "Source": "DrawBetter",
+  "BasePath": "_content/DrawBetter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DrawBetter\\wwwroot",
+      "Source": "DrawBetter",
+      "ContentRoot": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\",
+      "BasePath": "_content/DrawBetter",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\index.html",
+      "SourceId": "DrawBetter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\",
+      "BasePath": "_content/DrawBetter",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qxa4rr8j9r",
+      "Integrity": "XpfSVk12rKd5APjk8O4hQ5MF8RgGjEPsmcqn7/A3gOE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\script.js",
+      "SourceId": "DrawBetter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\",
+      "BasePath": "_content/DrawBetter",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kdfpiw2yhf",
+      "Integrity": "GIzTvaQq8lMpT6wAsM0fLA2A8F1U8dxH4XQy58aJOhY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\style.css",
+      "SourceId": "DrawBetter",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\",
+      "BasePath": "_content/DrawBetter",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jwxrn8tutq",
+      "Integrity": "nTSEgUTbAC2VEbSvC7nVWnPOY3AKThjFcsvyUhAs29Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XpfSVk12rKd5APjk8O4hQ5MF8RgGjEPsmcqn7/A3gOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 20:36:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XpfSVk12rKd5APjk8O4hQ5MF8RgGjEPsmcqn7/A3gOE="
+        }
+      ]
+    },
+    {
+      "Route": "index.qxa4rr8j9r.html",
+      "AssetFile": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3442"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XpfSVk12rKd5APjk8O4hQ5MF8RgGjEPsmcqn7/A3gOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 20:36:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxa4rr8j9r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XpfSVk12rKd5APjk8O4hQ5MF8RgGjEPsmcqn7/A3gOE="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GIzTvaQq8lMpT6wAsM0fLA2A8F1U8dxH4XQy58aJOhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 21:16:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GIzTvaQq8lMpT6wAsM0fLA2A8F1U8dxH4XQy58aJOhY="
+        }
+      ]
+    },
+    {
+      "Route": "script.kdfpiw2yhf.js",
+      "AssetFile": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GIzTvaQq8lMpT6wAsM0fLA2A8F1U8dxH4XQy58aJOhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 21:16:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kdfpiw2yhf"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GIzTvaQq8lMpT6wAsM0fLA2A8F1U8dxH4XQy58aJOhY="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTSEgUTbAC2VEbSvC7nVWnPOY3AKThjFcsvyUhAs29Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 20:46:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTSEgUTbAC2VEbSvC7nVWnPOY3AKThjFcsvyUhAs29Q="
+        }
+      ]
+    },
+    {
+      "Route": "style.jwxrn8tutq.css",
+      "AssetFile": "C:\\Users\\darkl\\source\\repos\\DrawBetter\\DrawBetter\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTSEgUTbAC2VEbSvC7nVWnPOY3AKThjFcsvyUhAs29Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 20:46:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jwxrn8tutq"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTSEgUTbAC2VEbSvC7nVWnPOY3AKThjFcsvyUhAs29Q="
+        }
+      ]
+    }
+  ]
+}

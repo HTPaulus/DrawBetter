@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>DrawBetter!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div id="room-code" class="room-code">Room ID: </div>
+
+        <h2>DrawBetter!</h2>
+
+        <div id="setup-section" style="display: none;">
+            <p><strong>Settings (Only for the first player)</strong></p>
+            <input id="word" placeholder="What should we draw?">
+            <input id="time" type="number" placeholder="Time in seconds">
+            <button onclick="setupGame()">Let's draw!</button>
+        </div>
+
+        <div id="task"></div>
+
+        <div class="canvas-container">
+
+            <div class="canvas-area">
+                <canvas id="canvas" width="400" height="400"></canvas>
+
+                <div id="toolbox" class="toolbox">
+                    <button id="penBtn" title="Pencil">✏️</button>
+                    <button id="colorBtn" title="Colour">🎨</button>
+                    <button id="eraserBtn" title="Eraser">🩹</button>
+                    <button id="clearBtn" title="Clear">🧹</button>
+                </div>
+            </div>
+
+            <div id="thicknessMenu">
+                <button class="thicknessOption" data-size="3">Thin</button>
+                <button class="thicknessOption" data-size="7">Medium</button>
+                <button class="thicknessOption" data-size="12">Thick</button>
+            </div>
+
+            <div class="canvas-footer">
+                <button id="submitBtn" onclick="submitDrawing()">I'm Ready!</button>
+                <div id="result"></div>
+                <div id="resultDetails" style="display: none;">
+                    <div class="image-result">
+                        <h3>Your drawing</h3>
+                        <img id="yourImage" />
+                        <ul id="yourLabels"></ul>
+                    </div>
+                    <div class="image-result">
+                        <h3>Opponent's drawing</h3>
+                        <img id="opponentImage" />
+                        <ul id="opponentLabels"></ul>
+                    </div>
+                </div>
+                <button onclick="resetGame()">New Game</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="colorMenu">
+        <button class="colorOption" style="background-color: black;" data-color="#000000"></button>
+        <button class="colorOption" style="background-color: gray;" data-color="#808080"></button>
+        <button class="colorOption" style="background-color: blue;" data-color="#0000ff"></button>
+        <button class="colorOption" style="background-color: purple;" data-color="#800080"></button>
+        <button class="colorOption" style="background-color: green;" data-color="#008000"></button>
+        <button class="colorOption" style="background-color: yellow;" data-color="#ffff00"></button>
+        <button class="colorOption" style="background-color: orange;" data-color="#ffa500"></button>
+        <button class="colorOption" style="background-color: red;" data-color="#ff0000"></button>
+        <button class="colorOption" style="background-color: hotpink;" data-color="#ff69b4"></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
