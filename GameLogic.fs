@@ -77,6 +77,18 @@ let extractVisionInfo (base64Image: string) : Task<VisionResult> =
             return { Labels = []; Texts = [] }
     }
 
+let hasMinUniqueChars (s: string) =
+    let filtered =
+        s.ToLowerInvariant()
+        |> Seq.toList
+        |> List.fold (fun acc ch ->
+            match acc with
+            | [] -> [ch]
+            | prev :: _ when prev <> ch -> ch :: acc
+            | _ -> acc
+        ) []
+    List.length (List.rev filtered) >= 3
+
 let evaluateRoom (room: Room) =
     task {
         match room.Setup with
@@ -100,7 +112,7 @@ let evaluateRoom (room: Room) =
                             //let target = setup.Word.ToLower()
                             //t.Length >= target.Length / 2 && target.StartsWith(t)
                             let target = t.ToLower()
-                            target = word || t.Length >= 3
+                            target = word || hasMinUniqueChars t //t.Length >= 3
                         )
 
                     if forbiddenTexts.Length > 0 then
