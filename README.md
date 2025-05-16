@@ -37,7 +37,7 @@ https://ij45ha.opipc.hu/
 ### Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - A valid Google Vision API key
-	- The api key should be in the file **“api_key.txt”.**
+	- The api key should be in the file `api_key.txt`.
 
 
 ### Command Line Usage
