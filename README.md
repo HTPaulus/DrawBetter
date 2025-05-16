@@ -32,7 +32,6 @@ https://ij45ha.opipc.hu/
 
 ## Screenshots
 
-![Screenshot](/Screenshots/DrawBetter01.png)
 ![Screenshot](/Screenshots/DrawBetter02.png)
 
 ---
