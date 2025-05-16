@@ -18,6 +18,7 @@ The game explicitly prohibits written text on the canvas. Any player who attempt
 
 The game supports parallel play. This means that there are as many virtual rooms as there are pairs of players. A new room opens every third time the web page is loaded.
 
+To store the images created (for debugging purposes), the program automatically creates a “saved-images” directory the first time it is run.
 
 The game uses a server-client model:
 - The **server** manages game logic, player pairing, and scoring.
@@ -29,9 +30,10 @@ https://ij45ha.opipc.hu/
 
 ---
 
-## Screenshot
+## Screenshots
 
-![Screenshot](DrawBetter.png)
+![Screenshot](/Screenshots/DrawBetter01.png)
+![Screenshot](/Screenshots/DrawBetter02.png)
 
 ---
 
