@@ -97,8 +97,10 @@ let evaluateRoom (room: Room) =
                         vision.Texts
                         |> List.map (fun t -> t.Trim().ToLower())
                         |> List.filter (fun t ->
-                            let target = setup.Word.ToLower()
-                            t.Length >= target.Length / 2 && target.StartsWith(t)
+                            //let target = setup.Word.ToLower()
+                            //t.Length >= target.Length / 2 && target.StartsWith(t)
+                            let target = t.ToLower()
+                            target = word || t.Length >= 3
                         )
 
                     if forbiddenTexts.Length > 0 then
