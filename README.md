@@ -5,8 +5,8 @@ Multiplayer Drawing Game with AI Scoring
 
 The process of the game:
 
-1. both players load the same URL in their browser.
-2. they match their room ID in the top right corner of the game to make sure they are in the same room.
+1. Both players load the same URL in their browser.
+2. They match their room ID in the top right corner of the game to make sure they are in the same room.
 3. The first one to load it will be the game master who will specify what the word to draw should be and how long it should take.
 4. The second player will be the one to fill in the URL after the first player.
 5. The second player will wait until the first player starts the game.
@@ -17,8 +17,6 @@ The process of the game:
 The game explicitly prohibits written text on the canvas. Any player who attempts to write part or all of a word in the canvas will be disqualified at the end of the game.
 
 The game supports parallel play. This means that there are as many virtual rooms as there are pairs of players. A new room opens every third time the web page is loaded.
-
-To store the images created (for debugging purposes), the program automatically creates a “saved-images” directory the first time it is run.
 
 The game uses a server-client model:
 - The **server** manages game logic, player pairing, and scoring.
@@ -63,6 +61,9 @@ To build the project manually:
 ```bash
 dotnet build
 ```
+
+To store the images created (for debugging purposes), the program automatically creates a `saved-images` directory the first time it is run.
+
 ---
 
 ## License
